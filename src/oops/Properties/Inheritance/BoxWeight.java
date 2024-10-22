@@ -5,6 +5,10 @@ import javax.sound.sampled.BooleanControl;
 public class BoxWeight extends Box{
     double weight;
 
+    static void greeting(){
+        System.out.println("Hey i am in BoxWeight class. Greetings !");
+    }
+
     public BoxWeight(){
         this.weight = -1;
     }

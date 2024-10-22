@@ -2,7 +2,7 @@ package oops.Properties.Inheritance;
 
 public class Main {
     public static void main(String[] args) {
-//        Box box1 = new Box();
+        Box box1 = new Box();
 //        System.out.println(box1.l + " " + box1.w + " " + box1.h);
 
 //        BoxWeight box3 = new BoxWeight();
@@ -26,6 +26,15 @@ public class Main {
 //        BoxWeight box6 = new Box(2, 3, 4); //but box class does not know what is in its below class
 //        System.out.println(box6.w);
 
-        BoxPrice box7 = new BoxPrice(5,8,200);
+//        BoxPrice box7 = new BoxPrice(5,8,200);
+//        box1.greeting();
+
+        Box box = new BoxWeight();
+        box.greeting(); //static methods will run from parent clas
+        // you cannot ovveride static methods
+        // but static methods can be inherited for other uses.
+
+
+
 }
 }

@@ -1,5 +1,8 @@
 package oops.Properties.Inheritance;
 
+//Multiple inheritance not allowed in java
+
+
 public class BoxPrice extends BoxWeight{
     double cost;
 
