@@ -22,6 +22,7 @@ public class CLL {
         tail=node;
     }
 
+
     public void delete(int value){
         Node temp = head;
         if(temp==null){
@@ -63,5 +64,10 @@ public class CLL {
         public Node(int value){
             this.value= value;
         }
+        public Node(int value, Node node){
+            this.value = value;
+            this.next = node;
+        }
+
     }
 }
